@@ -5,6 +5,9 @@ on:
     branches:
       - main  # Trigger deployment on push to the main branch
 
+permission:
+  contents: write
+
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
