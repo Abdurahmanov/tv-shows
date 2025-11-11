@@ -1,6 +1,7 @@
 # tv-shows
 
 This project is built using Vue 3, Vite, and TypeScript.
+
 Demo: https://abdurahmanov.github.io/tv-shows
 
 ## Prerequisites
