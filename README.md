@@ -1,6 +1,7 @@
 # tv-shows
 
 This project is built using Vue 3, Vite, and TypeScript.
+Demo: https://abdurahmanov.github.io/tv-shows
 
 ## Prerequisites
 - [Node.js](https://nodejs.org/) Ensure you have Node.js installed. The project supports Node.js versions ^20.19.0 || >=22.12.0.
