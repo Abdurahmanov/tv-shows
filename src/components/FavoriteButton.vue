@@ -1,5 +1,8 @@
 <template>
-  <button @click.stop.prevent="toggleFav">
+  <button
+    @click.stop.prevent="toggleFav"
+    :aria-label="!isFav ? 'Add to Favorites' : 'Remove from Favorites'"
+  >
     {{ !isFav ? text.add : text.remove }}
   </button>
 </template>

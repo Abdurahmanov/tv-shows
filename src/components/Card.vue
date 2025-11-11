@@ -2,7 +2,7 @@
   <router-link :to="`/show/${show.id}`" class="link">
     <div class="img-wrapper">
       <img :src="show.image?.medium" :alt="show.name" />
-      <p class="rating">
+      <p class="rating" :aria-label="`rating ${show.rating?.average}`">
         <span>⭐ {{ show.rating?.average ?? 'N/A' }}</span>
       </p>
       <FavoriteButton :show="show" class="favorite-btn" />

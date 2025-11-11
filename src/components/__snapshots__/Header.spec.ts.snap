@@ -51,6 +51,7 @@ exports[`Header > should render the header component correctly 1`] = `
     </div>
   </div>
   <router-link
+    aria-label="favorites"
     class="link favorites"
     data-v-c970699f=""
     to="/favorites"

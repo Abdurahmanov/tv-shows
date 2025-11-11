@@ -150,6 +150,7 @@ exports[`Details > should render page correctly 1`] = `
             </tbody>
           </table>
           <button
+            aria-label="Add to Favorites"
             class="favorite-btn"
             data-v-14b79667=""
           >

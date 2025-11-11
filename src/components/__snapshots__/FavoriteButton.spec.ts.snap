@@ -1,13 +1,17 @@
 // Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
 exports[`FavoriteButton > should render the correct initial text when already a favorite 1`] = `
-<button>
+<button
+  aria-label="Remove from Favorites"
+>
   ❤️
 </button>
 `;
 
 exports[`FavoriteButton > should render the correct initial text when not a favorite 1`] = `
-<button>
+<button
+  aria-label="Add to Favorites"
+>
   🫶
 </button>
 `;

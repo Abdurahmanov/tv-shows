@@ -6,7 +6,7 @@
       </router-link>
       <Search />
     </div>
-    <router-link class="link favorites" to="/favorites" />
+    <router-link class="link favorites" to="/favorites" aria-label="favorites" />
   </header>
 </template>
 
