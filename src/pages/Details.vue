@@ -90,7 +90,6 @@ onMounted(async () => {
 watch(
   () => route.params.id,
   async (newId) => {
-    console.log('Route param changed:', newId);
     await onFetchData(newId as string);
   },
 );
