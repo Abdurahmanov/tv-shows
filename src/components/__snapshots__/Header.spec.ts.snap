@@ -1,0 +1,59 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Header > should render the header component correctly 1`] = `
+<header
+  class="header"
+  data-v-c970699f=""
+>
+  <div
+    class="search-wrapper"
+    data-v-c970699f=""
+  >
+    <router-link
+      class="link"
+      data-v-c970699f=""
+      to="/"
+    >
+      <span
+        class="logo"
+        data-v-c970699f=""
+      />
+    </router-link>
+    <div
+      class="search-block"
+      data-v-87359d7f=""
+      data-v-c970699f=""
+    >
+      <input
+        class="input"
+        data-v-87359d7f=""
+        name="search"
+        placeholder="Search by name"
+        type="search"
+      />
+      <div
+        class="suggestion-block"
+        data-v-87359d7f=""
+        style="display: none;"
+      >
+        <ul
+          class="suggestion-list"
+          data-v-87359d7f=""
+        >
+          <li
+            class="suggestion-item empty"
+            data-v-87359d7f=""
+          >
+             Begin typing to see the results 
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <router-link
+    class="link favorites"
+    data-v-c970699f=""
+    to="/favorites"
+  />
+</header>
+`;

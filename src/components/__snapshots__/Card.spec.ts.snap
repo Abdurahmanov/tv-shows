@@ -1,0 +1,46 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Card > should render a component 1`] = `
+<router-link
+  class="link"
+  data-v-c6c3362a=""
+  to="/show/1"
+>
+  <div
+    class="img-wrapper"
+    data-v-c6c3362a=""
+  >
+    <img
+      alt="Test Show"
+      data-v-c6c3362a=""
+      src="test-image.jpg"
+    />
+    <p
+      class="rating"
+      data-v-c6c3362a=""
+    >
+      <span
+        data-v-c6c3362a=""
+      >
+        ⭐ 8.5
+      </span>
+    </p>
+    <button
+      class="favorite-btn"
+      data-v-c6c3362a=""
+    >
+      🫶
+    </button>
+  </div>
+  <p
+    data-v-c6c3362a=""
+  >
+    Test Show
+  </p>
+  <p
+    data-v-c6c3362a=""
+  >
+    Network: Test Network
+  </p>
+</router-link>
+`;

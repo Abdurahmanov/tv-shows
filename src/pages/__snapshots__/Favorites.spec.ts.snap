@@ -1,0 +1,75 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Favorites > should render "No favorites yet" when the favorites list is empty 1`] = `
+<div
+  data-v-c6a9ecd8=""
+>
+  <div
+    data-v-c6a9ecd8=""
+  >
+    <router-link
+      class="back"
+      data-v-c6a9ecd8=""
+      to="/"
+    >
+      ← Back to Home
+    </router-link>
+  </div>
+  <h2
+    data-v-c6a9ecd8=""
+  >
+    Favorites
+  </h2>
+  <div
+    data-v-c6a9ecd8=""
+  >
+    No favorites yet.
+  </div>
+  <div
+    class="grid"
+    data-v-c6a9ecd8=""
+  >
+    
+    
+  </div>
+</div>
+`;
+
+exports[`Favorites > should render favorite items when the favorites list is populated 1`] = `
+<div
+  data-v-c6a9ecd8=""
+>
+  <div
+    data-v-c6a9ecd8=""
+  >
+    <router-link
+      class="back"
+      data-v-c6a9ecd8=""
+      to="/"
+    >
+      ← Back to Home
+    </router-link>
+  </div>
+  <h2
+    data-v-c6a9ecd8=""
+  >
+    Favorites
+  </h2>
+  <!--v-if-->
+  <div
+    class="grid"
+    data-v-c6a9ecd8=""
+  >
+    
+    <card-stub
+      data-v-c6a9ecd8=""
+      show="[object Object]"
+    />
+    <card-stub
+      data-v-c6a9ecd8=""
+      show="[object Object]"
+    />
+    
+  </div>
+</div>
+`;

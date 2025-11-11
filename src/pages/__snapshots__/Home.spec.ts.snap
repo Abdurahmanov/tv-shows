@@ -1,0 +1,109 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Home > should render "Loading..." when data is loading 1`] = `
+<div
+  data-v-933e9cdf=""
+>
+  <div
+    data-v-933e9cdf=""
+  >
+    Loading...
+  </div>
+</div>
+`;
+
+exports[`Home > should render genres and shows when data is available 1`] = `
+<div
+  data-v-933e9cdf=""
+>
+  <div
+    class="wrapper"
+    data-v-933e9cdf=""
+  >
+    
+    <div
+      class="genre-block"
+      data-v-933e9cdf=""
+    >
+      <h2
+        class="title"
+        data-v-933e9cdf=""
+      >
+        Drama
+      </h2>
+      <div
+        class="carousel"
+        data-v-933e9cdf=""
+      >
+        <div
+          aria-label="carousel"
+          class="scroll-container"
+          data-v-933e9cdf=""
+          role="region"
+        >
+          <ul
+            class="carousel-list"
+            data-v-933e9cdf=""
+            role="list"
+          >
+            
+            <li
+              class="carousel-item"
+              data-v-933e9cdf=""
+            >
+              <card-stub
+                class="carousel-card"
+                data-v-933e9cdf=""
+                show="[object Object]"
+              />
+            </li>
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div
+      class="genre-block"
+      data-v-933e9cdf=""
+    >
+      <h2
+        class="title"
+        data-v-933e9cdf=""
+      >
+        Comedy
+      </h2>
+      <div
+        class="carousel"
+        data-v-933e9cdf=""
+      >
+        <div
+          aria-label="carousel"
+          class="scroll-container"
+          data-v-933e9cdf=""
+          role="region"
+        >
+          <ul
+            class="carousel-list"
+            data-v-933e9cdf=""
+            role="list"
+          >
+            
+            <li
+              class="carousel-item"
+              data-v-933e9cdf=""
+            >
+              <card-stub
+                class="carousel-card"
+                data-v-933e9cdf=""
+                show="[object Object]"
+              />
+            </li>
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+</div>
+`;

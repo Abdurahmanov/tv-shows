@@ -1,0 +1,85 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Search > should display suggestions when searchData is available 1`] = `
+<div
+  class="search-block"
+  data-v-87359d7f=""
+>
+  <input
+    class="input"
+    data-v-87359d7f=""
+    name="search"
+    placeholder="Search by name"
+    type="search"
+  />
+  <div
+    class="suggestion-block"
+    data-v-87359d7f=""
+    style="display: none;"
+  >
+    <ul
+      class="suggestion-list"
+      data-v-87359d7f=""
+    >
+      
+      <li
+        class="suggestion-item"
+        data-v-87359d7f=""
+      >
+        <router-link
+          class="suggestion-link"
+          data-v-87359d7f=""
+          to="/show/1"
+        >
+          Show 1
+        </router-link>
+      </li>
+      <li
+        class="suggestion-item"
+        data-v-87359d7f=""
+      >
+        <router-link
+          class="suggestion-link"
+          data-v-87359d7f=""
+          to="/show/2"
+        >
+          Show 2
+        </router-link>
+      </li>
+      
+    </ul>
+  </div>
+</div>
+`;
+
+exports[`Search > should render the search component correctly 1`] = `
+<div
+  class="search-block"
+  data-v-87359d7f=""
+>
+  <input
+    class="input"
+    data-v-87359d7f=""
+    name="search"
+    placeholder="Search by name"
+    type="search"
+  />
+  <div
+    class="suggestion-block"
+    data-v-87359d7f=""
+    style="display: none;"
+  >
+    <ul
+      class="suggestion-list"
+      data-v-87359d7f=""
+    >
+      <li
+        class="suggestion-item empty"
+        data-v-87359d7f=""
+      >
+         Begin typing to see the results 
+      </li>
+    </ul>
+  </div>
+</div>
+`;
