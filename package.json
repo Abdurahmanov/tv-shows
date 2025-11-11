@@ -45,5 +45,8 @@
     "vite-plugin-vue-devtools": "^8.0.3",
     "vitest": "^3.2.4",
     "vue-tsc": "^3.1.1"
+  },
+  "resolutions": {
+    "rollup": "4.53.2"
   }
 }
